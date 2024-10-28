@@ -47,8 +47,8 @@ describe("LadysToken", function () {
             const poolAmount = ethers.parseEther("834720834720835");
             const airdropAmount = ethers.parseEther("253500000000000");
             const grantAmount = ethers.parseEther("316169165279165");
-            const liquidAmount = ethers.parseEther("169000000000000");
-            const treasuryAmount = ethers.parseEther("116610000000000");
+            const liquidAmount = ethers.parseEther("50700000000000");
+            const treasuryAmount = ethers.parseEther("234910000000000");
 
             expect(await ladysToken.balanceOf(POOL)).to.equal(poolAmount);
             expect(await ladysToken.balanceOf(AIRDROP)).to.equal(airdropAmount);

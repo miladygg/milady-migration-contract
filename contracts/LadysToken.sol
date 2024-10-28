@@ -23,8 +23,8 @@ contract LadysToken is ERC20, Ownable {
         _mint(_pool, 834720834720835 * 1 ether); // 49.39% for swap pool
         _mint(_airdropDistributor, 253500000000000 * 1 ether); // 15% for airdrop
         _mint(_grants, 316169165279165 * 1 ether); // 18.71% for grants on layer 2
-        _mint(_liquidityProvider, 169000000000000 * 1 ether); // 10% for liquidity provider
-        _mint(_treasury, 116610000000000 * 1 ether); // 6.9% for treasury
+        _mint(_liquidityProvider, 50700000000000 * 1 ether); // 3% for liquidity provider
+        _mint(_treasury, 234910000000000 * 1 ether); // 13.9% for treasury
     }
 
     /**
